@@ -1,11 +1,11 @@
 import {v4 as uuidv4} from "uuid";
-import users from "./users";
-export const createUser=(req,res)=>{
+let users=[]
+export const getUsers=(req,res)=>{
     console.log(users)
     res.send(users);
 }
 
-export const getUsers=(req,res)=>{
+export const createUser=(req,res)=>{
     const userId=uuidv4()
     const user=req.body
     const userWithId={...user,id: userId}
