@@ -4,7 +4,7 @@
   "description": "\"# express_curd_api\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/VdoVd/express_curd_api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
