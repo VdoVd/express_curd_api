@@ -5,7 +5,7 @@
 it can `create,post,delete,patch` user
 
 ## use dockerfile to make a image
-`docker pull 1478914789\express_user:v1.0.0`
+`docker pull 1478914789\express_user:v1.0.0`\
 'docker run -itd --name express_user -p 5000:5000 1478914789\express_user:1.0.0`
 
 ## you can see the interface in the controller.js
